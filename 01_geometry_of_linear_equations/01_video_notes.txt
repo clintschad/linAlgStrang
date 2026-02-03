@@ -1,0 +1,4 @@
+- In a 3x3 system, each row (equation of 3 variables) is a plane of points. The three planes from the 3 equations meet at a dot which is satisfies the system of equations.
+- For a 3x3 system, given 3 column vectors, can I get every possible RHS b? In other words, given the column vectors, is it possible to fill the entire 3D space? If the columns are independent, yes. If the three vectors lie in a plane, no. They can only produce vectors that lie in that plane. Also, one of the three vectors is a combo of the others. This is a singualar matrix.
+- Matrix multiplication (matrix x column_vector). I've commonly done the "row way" or "dot product" way which is row x column_vector. However, another (great) way to think about matrix multiplication is column_vector_components times the matrix_columns.
+- Ax is a linear combo of the columns of A. A contains the columns and x describes how they're combined.
